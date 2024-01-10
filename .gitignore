@@ -1,0 +1,12 @@
+.DS_Store
+
+# Ignore all images
+**/*.jpg
+**/*.jpeg
+**/*.JPG
+**/*.png
+**/*.PNG
+# Except ones that are explicitly downsized
+!**/* Large.jpeg
+!**/* Medium.jpeg
+!**/* Small.jpeg
